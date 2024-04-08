@@ -9,6 +9,13 @@ import pymysql
 from flask_mysqldb import MySQL
 from time import sleep
 
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+
 # Create Flask app
 app = Flask(__name__)
 CORS(app)
@@ -19,15 +26,16 @@ engine = "gpt-4"
 # Create the ChatBot instance
 chatbot = OpenAIBot(engine)
 
-# Google Cloud SQL (change this accordingly)
-PASSWORD ="adminroot"
-PUBLIC_IP_ADDRESS ="34.102.25.44"
-DBNAME ="lucra-demo"
-PROJECT_ID ="dse-calendar"
-INSTANCE_NAME ="lucradb"
+# Google Cloud SQL credentials
+PASSWORD = os.getenv("PASSWORD")
+PUBLIC_IP_ADDRESS = os.getenv("PUBLIC_IP_ADDRESS")
+DBNAME = os.getenv("DBNAME")
+PROJECT_ID = os.getenv("PROJECT_ID")
+INSTANCE_NAME = os.getenv("INSTANCE_NAME")
 
 # Using the SQLALchemy format, replace with your details
-app.config["SQLALCHEMY_DATABASE_URI"]= 'mysql+pymysql://root:adminroot@34.102.25.44/users'
+app.config["SQLALCHEMY_DATABASE_URI"] = f"mysql+pymysql://root:{PASSWORD}@{PUBLIC_IP_ADDRESS}/{DBNAME}"
+# Optional, but saves resources
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Optional, but saves resources
 
 db = SQLAlchemy(app)
