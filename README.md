@@ -1,25 +1,62 @@
-# How to Integrate Flask Framework with Next.js
+# Strai - Strategic AI Branding Expert
 
-In this article, you will learn how to integrate a Flask API project with Next.js and deploy them on Vercel. Traditionally, Vercel primarily supported a Node.js serverless runtime, which required writing API logic in JavaScript or TypeScript. However, Vercel has recently introduced support for other runtimes, including Golang, Ruby, Node.js, and Python.
+Let our Strategic AI branding expert guide you to a captivating brand identity. Strai is a chatbot that specializes in marketing and branding strategies.
 
-![How to Integrate Flask Framework with Next.js](https://codevoweb.com/wp-content/uploads/2023/06/How-to-Integrate-Flask-Framework-with-Next.js.webp)
+## Introduction
 
-## Topics Covered
+Strai is an AI-powered chatbot designed to assist businesses in developing effective marketing and branding strategies. It utilizes cutting-edge technology to provide expert advice and insights tailored to your specific needs.
 
-- Running the Flask and Next.js Projects
-- Setting up the Next.js and Flask Projects
-    - Setting up the Next.js Project
-    - Setting up the Flask Project
-    - Forwarding Requests to the Flask App
-    - Testing the Projects in the Development Environment
-- Deploying the Projects to Vercel
-- Building a Todo List CRUD API with Flask
-- Building the Todo List Frontend with Next.js
-    - Making HTTP Requests to the Flask Server
-    - Creating the Todo List Form Component
-    - Creating the Todo Item Component
-    - Displaying the Components in a Page File
-- Redeploying the Project to Vercel
-- Conclusion
+## Tools Used
 
-Read the entire article here: [https://codevoweb.com/how-to-integrate-flask-framework-with-nextjs/](https://codevoweb.com/how-to-integrate-flask-framework-with-nextjs/)
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Flask
+- Google Cloud Platform
+- MySQL
+- OpenAI API
+
+## Features
+
+1. **Marketing Expertise**: Strai serves as a knowledgeable assistant, providing answers to all your questions about marketing strategies, techniques, and best practices.
+
+2. **Brand Value Document Generation**: Strai can generate comprehensive brand value documents, incorporating insights and data visualizations to enhance customer outreach and engagement.
+
+## Future Work
+
+In the future, we plan to expand Strai's capabilities with the following enhancements:
+
+- **Sentiment Analysis**: Implement sentiment analysis on user responses to gather feedback and improve the chatbot's effectiveness.
+
+- **Enhanced Brand Value Document**: Incorporate web scraping techniques to extract valuable information such as product feedback and reviews, enriching the brand value document for clients.
+
+- **User Authentication and Management**: Implement user authentication and management features to enhance security and personalize the user experience.
+
+## Getting Started
+
+To get started with Strai, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
+2. Install dependencies:
+   ```bash
+   pnpm add
+
+3. Activate the virtual environment:
+   ```bash
+   .\venv\Scripts\activate 
+
+4. Run App on Separate Terminals:
+   ```bash
+   pnpm dev
+   cd .\venv\api\
+   python index.py
+
+## Application Demo
+
+## References
+https://codevoweb.com/how-to-integrate-flask-framework-with-nextjs/
+ 
+
