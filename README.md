@@ -2,6 +2,9 @@
 
 Let our Strategic AI branding expert guide you to a captivating brand identity. Strai is a chatbot that specializes in marketing and branding strategies.
 
+## Application Demo
+YouTube Link : https://youtu.be/UnMhd5xXISs
+
 ## Introduction
 
 Strai is an AI-powered chatbot designed to assist businesses in developing effective marketing and branding strategies. It utilizes cutting-edge technology to provide expert advice and insights tailored to your specific needs.
@@ -43,6 +46,7 @@ To get started with Strai, follow these steps:
 2. Install dependencies:
    ```bash
    pnpm add
+   pip freeze > requirements.txt  
 
 3. Activate the virtual environment:
    ```bash
@@ -53,8 +57,6 @@ To get started with Strai, follow these steps:
    pnpm dev
    cd .\venv\api\
    python index.py
-
-## Application Demo
 
 ## References
 For application structure:
