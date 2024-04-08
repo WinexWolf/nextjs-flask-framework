@@ -6,7 +6,9 @@ Let our Strategic AI branding expert guide you to a captivating brand identity. 
 YouTube Link: https://youtu.be/UnMhd5xXISs
 
 ## Style Guide
-![Alt text]("C:\Users\anukr\Downloads\Color Palette Instagram Post Minimalistic Nude Colors.png")
+Font: Sans serif
+![alt text](https://github.com/WinexWolf/nextjs-flask-framework/blob/main/color_palette?raw=true)
+
 
 ## Introduction
 
