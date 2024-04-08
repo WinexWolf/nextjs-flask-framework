@@ -57,6 +57,7 @@ To get started with Strai, follow these steps:
 ## Application Demo
 
 ## References
+For application structure:
 https://codevoweb.com/how-to-integrate-flask-framework-with-nextjs/
  
 
