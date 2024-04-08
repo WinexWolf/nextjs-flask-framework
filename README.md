@@ -3,7 +3,10 @@
 Let our Strategic AI branding expert guide you to a captivating brand identity. Strai is a chatbot that specializes in marketing and branding strategies.
 
 ## Application Demo
-YouTube Link : https://youtu.be/UnMhd5xXISs
+YouTube Link: https://youtu.be/UnMhd5xXISs
+
+## Style Guide
+![Alt text]("C:\Users\anukr\Downloads\Color Palette Instagram Post Minimalistic Nude Colors.png")
 
 ## Introduction
 
