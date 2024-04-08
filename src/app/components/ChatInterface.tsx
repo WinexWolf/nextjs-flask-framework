@@ -88,8 +88,8 @@ function addNewLine(inputString) {
 function Popup() {
 
   return (
-    <div className={`absolute top-16 right-0 bg-white shadow-md p-4 rounded-lg ${isOpen ? 'block' : 'hidden'}`}>
-      <span>Generate your company brand value document and generate insights from data</span>
+    <div className={`absolute top-16 right-0 bg-white shadow-md p-4 rounded-full ${isOpen ? 'block' : 'hidden'}`}>
+      <Link href='/insights'><span>Generate your company brand value document and insights from data</span></Link>
     </div>
   );
   }
@@ -100,6 +100,8 @@ function Popup() {
       <Link href="/">
         <Image className="p-2" src={logo} alt="Logo" width={100} height={100} />
       </Link>
+              <Link href="/insights">
+
       <button
         className="px-3 py-1 m-4 font-bold bg-gradient-to-b from-skyblue to-blue-400 text-white rounded-full hover:bg-blue-400 transition-colors duration-500 ease-in-out focus:outline-none focus:bg-gray-600 inline-block transform hover:scale-105"
         onMouseEnter={() => setIsOpen(true)}
@@ -107,6 +109,7 @@ function Popup() {
       >
         Generate
       </button>
+      </Link>
       <Popup />
     </div>
 
