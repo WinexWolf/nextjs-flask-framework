@@ -1,4 +1,4 @@
-# Strai - Strategic AI Branding Expert
+# STRAI - Strategic AI Branding Expert
 
 Let our Strategic AI branding expert guide you to a captivating brand identity. Strai is a chatbot that specializes in marketing and branding strategies.
 
