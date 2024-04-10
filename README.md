@@ -12,7 +12,7 @@ Font: Sans serif
 
 ## Introduction
 
-Strai is an AI-powered chatbot designed to assist businesses in developing effective marketing and branding strategies. It utilizes cutting-edge technology to provide expert advice and insights tailored to your specific needs.
+STRAI is an AI-powered chatbot designed to assist businesses in developing effective marketing and branding strategies. It utilizes cutting-edge technology to provide expert advice and insights tailored to your specific needs.
 
 ## Tools Used
 
@@ -60,7 +60,6 @@ To get started with Strai, follow these steps:
 4. Run App on Separate Terminals:
    ```bash
    pnpm dev
-   cd .\venv\api\
    python index.py
 
 ## References
